@@ -1,0 +1,9 @@
+.navbar {
+    justify-content: space-between;
+  }
+  a {
+    font-size: 2rem;
+  }
+  button {
+    margin: 1rem;
+  }
