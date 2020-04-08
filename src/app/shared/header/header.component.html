@@ -1,12 +1,25 @@
-<mat-toolbar color="primary" class="navbar">
-    <a mat-button [routerLink]="['home']">Wuba Luba Web Dub</a>
+<nav id="navbar">
+  <div id="logo">
+    <a mat-button class="name-site"
+    [routerLink]="['home']">Wuba Luba Web Dub</a>
+  </div>
+
+  <div id="btn">
+    <a [routerLink]="['characters']"
+    mat-stroked-button color="accent">Personajes</a>  
     
-  <div>
+    <a [routerLink]="['about']"
+    mat-stroked-button color="accent">Acerca del sitio</a>
+  </div>
+</nav>
+
+
+<!-- <mat-toolbar color="primary" class="grid-header">
+    <a mat-button class="name-site"
+    [routerLink]="['home']">Wuba Luba Web Dub</a>
     <button [routerLink]="['characters']"
     mat-stroked-button color="accent">Personajes</button>
     
     <button [routerLink]="['about']"
-    mat-stroked-button color="accent">Acerca del sitio</button>
-  </div>
-    
-  </mat-toolbar>
+    mat-stroked-button color="accent">Acerca del sitio</button>      
+  </mat-toolbar> -->
