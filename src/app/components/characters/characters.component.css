@@ -1,0 +1,10 @@
+#first-banner-characters {
+    background: url('../../../assets/characters.png');
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
