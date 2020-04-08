@@ -1,9 +1,12 @@
-<mat-toolbar fxLayout="row" fxLayoutAlign="space-between" color="primary" class="navbar">
-    <a mat-button routerLink=".">Wuba Luba Web Dub</a>
+<mat-toolbar color="primary" class="navbar">
+    <a mat-button [routerLink]="['home']">Wuba Luba Web Dub</a>
     
   <div>
-    <button mat-stroked-button color="accent">Personajes</button>
-    <button mat-stroked-button color="accent">Acerca del sitio</button>
+    <button [routerLink]="['characters']"
+    mat-stroked-button color="accent">Personajes</button>
+    
+    <button [routerLink]="['about']"
+    mat-stroked-button color="accent">Acerca del sitio</button>
   </div>
     
   </mat-toolbar>
